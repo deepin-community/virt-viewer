@@ -1,0 +1,49 @@
+/* Enable compile-time and run-time bounds-checking, and some warnings. */
+#if !defined _FORTIFY_SOURCE && defined __OPTIMIZE__ && __OPTIMIZE__
+# define _FORTIFY_SOURCE 2
+#endif
+
+/* Name of package */
+#define PACKAGE "virt-viewer"
+
+/* GETTEXT package name */
+#define GETTEXT_PACKAGE "virt-viewer"
+
+/* GLib logging domain */
+#define G_LOG_DOMAIN "virt-viewer"
+
+/* Enable GNU extensions */
+#define _GNU_SOURCE
+
+/* Build version details */
+#define BUILDID "@BUILDID@"
+
+/* Define to the full name and version of this package. */
+#define PACKAGE_STRING "virt-viewer @VERSION@"
+
+/* Define to the version of this package. */
+#define PACKAGE_VERSION "@VERSION@"
+
+/* OS ID for this build */
+#mesondefine REMOTE_VIEWER_OS_ID
+
+/* Version number of package */
+#define VERSION "@VERSION@"
+
+/* Have gtk-vnc? */
+#mesondefine HAVE_GTK_VNC
+
+/* Have libvirt? */
+#mesondefine HAVE_LIBVIRT
+
+/* Have libgovirt? */
+#mesondefine HAVE_OVIRT
+
+/* Have ovirt_storage_domain_get_disks function? */
+#mesondefine HAVE_OVIRT_STORAGE_DOMAIN_GET_DISKS
+
+/* Have spice-gtk? */
+#mesondefine HAVE_SPICE_GTK
+
+/* Have vte? */
+#mesondefine HAVE_VTE

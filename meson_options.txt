@@ -1,0 +1,13 @@
+option('git_werror', type: 'feature', value: 'auto', description: 'use -Werror if building from GIT')
+
+option('libvirt', type: 'feature', value: 'auto', description: 'libvirt support')
+option('vnc', type: 'feature', value: 'auto', description: 'VNC support')
+option('spice', type: 'feature', value: 'auto', description: 'SPICE support')
+option('ovirt', type: 'feature', value: 'auto', description: 'oVirt support')
+option('vte', type: 'feature', value: 'auto', description: 'VTE support')
+
+option('build-id', type: 'string', value: '', description: 'Extra build ID string')
+option('os-id', type: 'string', value: '', description: 'Remote viewer OS-ID string')
+
+option('bash_completion', type: 'feature', value: 'auto', description: 'bash-completion support')
+option('bash_completion_dir', type: 'string', value: '', description: 'directory containing bash completion scripts')

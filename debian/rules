@@ -1,4 +1,17 @@
 #!/usr/bin/make -f
 
+# Temporarily disable ovirt feature until we are ready for librest transition
+DEB_CONFIGURE_EXTRA_FLAGS := -Dauto_features=enabled -Dgit_werror=disabled -Dovirt=disabled
+ifneq (,$(filter $(DEB_HOST_ARCH), hurd-i386 kfreebsd-i386 kfreebsd-amd64 sparc64))
+    DEB_CONFIGURE_EXTRA_FLAGS += -Dspice=disabled
+endif
+# libvirt-glib isn't currently built on these architectures
+ifneq (,$(filter $(DEB_HOST_ARCH), alpha hurd-i386 ia64 kfreebsd-i386 kfreebsd-amd64 m68k sh4))
+    DEB_CONFIGURE_EXTRA_FLAGS += -Dlibvirt=disabled
+endif
+
 %:
 	dh $@
+
+override_dh_auto_configure:
+	dh_auto_configure -- $(DEB_CONFIGURE_EXTRA_FLAGS)

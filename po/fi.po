@@ -1,0 +1,754 @@
+# Virt Viewer package strings.
+# Copyright (C) 2020 The Virt Viewer authors
+# This file is distributed under the same license as the virt-viewer package.
+# Jan Kuparinen <copper_fin@hotmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: virt-viewer 9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-18 18:29+0000\n"
+"PO-Revision-Date: 2021-05-27 06:02+0000\n"
+"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/virt-"
+"viewer/virt-viewer/fi/>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.6.2\n"
+
+#, c-format
+msgid ""
+"\n"
+"Error: can't handle multiple URIs\n"
+"\n"
+msgstr ""
+"\n"
+"Virhe: ei voi käsitellä useita URI-osoitteita\n"
+"\n"
+
+#, c-format
+msgid ""
+"\n"
+"No ID|UUID|DOMAIN-NAME was specified for '%s'\n"
+"\n"
+msgstr ""
+"\n"
+"ID|UUID|DOMAIN-NAME ei annettu kohteelle '%s'\n"
+"\n"
+
+#, c-format
+msgid ""
+"\n"
+"Usage: %s [OPTIONS] [ID|UUID|DOMAIN-NAME]\n"
+"\n"
+msgstr ""
+"\n"
+"Käyttö: %s [VALINNAT] [ID|UUID|TOIMIALUEEN-NIMI]\n"
+"\n"
+
+#. translators:
+#. * This is "<ungrab accelerator> <subtitle> - <appname>"
+#. * Such as: "(Press Ctrl+Alt to release pointer) BigCorpTycoon MOTD - Virt Viewer"
+#.
+#, c-format
+msgid "%s %s - %s"
+msgstr "%s %s - %s"
+
+#. translators:
+#. * This is "<ungrab accelerator> - <appname>"
+#. * Such as: "(Press Ctrl+Alt to release pointer) - Virt Viewer"
+#.
+#. translators:
+#. * This is "<subtitle> - <appname>"
+#. * Such as: "BigCorpTycoon MOTD - Virt Viewer"
+#.
+#, c-format
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#, c-format
+msgid "%s version %s"
+msgstr "%s versio %s"
+
+#, c-format
+msgid "(Press %s to release pointer)"
+msgstr "(Paina %s osoittimen vapauttamiseksi)"
+
+msgid "<b>Loading...</b>"
+msgstr "<b>Ladataan...</b>"
+
+msgid "<never|always>"
+msgstr "<ei koskaan|aina>"
+
+msgid "<never|on-disconnect>"
+msgstr "<ei koskaan|yhteyttä katkaistaessa>"
+
+msgid "A remote desktop client built with GTK-VNC, SPICE-GTK and libvirt"
+msgstr ""
+"Etätyöpöytäasiakas, joka on rakennettu käyttäen: GTK-VNC, SPICE-GTK ja "
+"libvirt"
+
+msgid "About Virt-Viewer"
+msgstr "Tietoja Virt-Vieweristä"
+
+msgid "Access remote desktops"
+msgstr "Käytä etätyöpöytiä"
+
+#, c-format
+msgid "Address is too long for UNIX socket_path: %s"
+msgstr "Osoite on liian pitkä UNIX socket_path: %s:lle"
+
+#, c-format
+msgid "At least %s version %s is required to setup this connection"
+msgstr "Tämän yhteyden muodostamiseen tarvitaan vähintään %s versio %s"
+
+#, c-format
+msgid ""
+"At least %s version %s is required to setup this connection, see %s for "
+"details"
+msgstr ""
+"Tämän yhteyden muodostamiseen tarvitaan vähintään %s versio %s, katso "
+"lisätietoja %s:stä"
+
+msgid "Attach to the local display using libvirt"
+msgstr "Kiinnitä paikalliseen näyttöön libvirtillä"
+
+msgid "Authentication failed."
+msgstr "Tunnistautuminen epäonnistui."
+
+#, c-format
+msgid ""
+"Authentication is required for the %s connection to:\n"
+"\n"
+"<b>%s</b>\n"
+"\n"
+msgstr ""
+"Tunnistautuminen vaaditaan %s yhteyden muodostamiseksi kohteeseen:\n"
+"\n"
+"<b>%s</b>\n"
+"\n"
+
+#, c-format
+msgid "Authentication is required for the %s connection:\n"
+msgstr "Tunnistautuminen vaaditaan %s yhteyden muodostamiseksi:\n"
+
+msgid "Authentication required"
+msgstr "Tunnistautuminen vaaditaan"
+
+msgid "Authentication was cancelled"
+msgstr "Tunnistautuminen keskeytettiin"
+
+msgid "Automatically resize remote framebuffer"
+msgstr "Muuta etäkehyspuskurin kokoa automaattisesti"
+
+msgid "Available virtual machines"
+msgstr "Saatavilla olevat virtuaalikoneet"
+
+msgid "C_onnect"
+msgstr "_Yhdistä"
+
+#, c-format
+msgid "Can't connect to channel: %s"
+msgstr "Ei voida muodostaa yhteyttä kanavaan: %s"
+
+msgid "Cannot determine the connection type from URI"
+msgstr "Yhteystyyppiä ei voida määrittää URI:stä"
+
+#, c-format
+msgid "Cannot determine the graphic type for the guest %s"
+msgstr "Vieraan %s graafista tyyppiä ei voida määrittää"
+
+#, c-format
+msgid "Cannot determine the host for the guest %s"
+msgstr "Vieraan %s isäntää ei voida määrittää"
+
+msgid "Cannot get guest state"
+msgstr "Vieraan tilaa ei voi saada"
+
+msgid "Change CD"
+msgstr "Vaihda CD"
+
+msgid "Checking guest domain status"
+msgstr "Tarkistetaan vieraan toimialueen tila"
+
+msgid "Choose a virtual machine"
+msgstr "Valitse virtuaalikone"
+
+msgid "Connect to SSH failed."
+msgstr "Yhteyden muodostaminen SSH:hon epäonnistui."
+
+msgid "Connect to channel unsupported."
+msgstr "Kanavalle yhdistämistä ei tueta."
+
+msgid "Connect to hypervisor"
+msgstr "Yhdistä hypervisoriin"
+
+msgid "Connected to graphic server"
+msgstr "Yhdistetty graafiseen palvelimeen"
+
+#, c-format
+msgid "Connecting to UNIX socket failed: %s"
+msgstr "Yhdistäminen UNIX-pistokkeeseen epäonnistui: %s"
+
+msgid "Connecting to graphic server"
+msgstr "Yhdistetään graafiseen palvelimeen"
+
+msgid "Connection _Address"
+msgstr "Yhteys_osoite"
+
+msgid "Connection details"
+msgstr "Yhteyden tiedot"
+
+msgid "Console support is compiled out!"
+msgstr "Konsolituki on jätetty pois käännöksestä!"
+
+msgid ""
+"Copyright (C) 2007-2012 Daniel P. Berrange\n"
+"Copyright (C) 2007-2020 Red Hat, Inc."
+msgstr ""
+"Copyright © 2007-2012 Daniel P. Berrange\n"
+"Copyright © 2007-2020 Red Hat, Inc."
+
+msgid "Couldn't open oVirt session: "
+msgstr "OVirt-istuntoa ei voitu avata: "
+
+#, c-format
+msgid "Creating UNIX socket failed: %s"
+msgstr "UNIX-pistokkeen luominen epäonnistui: %s"
+
+#, c-format
+msgid "Current: %s"
+msgstr ""
+
+msgid "Cursor display mode: 'local' or 'auto'"
+msgstr "Kohdistimen näyttötila: 'paikallinen' tai 'auto'"
+
+msgid "Customise hotkeys"
+msgstr "Mukauta pikanäppäimiä"
+
+msgctxt "shortcut window"
+msgid "Devices"
+msgstr "Laitteet"
+
+msgid "Direct connection with no automatic tunnels"
+msgstr "Suora yhteys ilman automaattisia tunneleita"
+
+#, c-format
+msgid "Display _%d"
+msgstr "Näyttö _%d"
+
+msgid "Display can only be attached through libvirt with --attach"
+msgstr "Näyttö voidaan liittää vain libvirtin kautta --attach:illa"
+
+msgid "Display debugging information"
+msgstr "Näytä vianjäljitystiedot"
+
+msgid "Display verbose information"
+msgstr "Näytä vuolaat tiedot"
+
+msgid "Display version information"
+msgstr "Näytä versiotiedot"
+
+msgid "Do not ask me again"
+msgstr "Älä kysy uudestaan"
+
+msgid "Do you want to close the session?"
+msgstr "Haluatko sulkea istunnon?"
+
+msgid "Enable kiosk mode"
+msgstr "Käytä kioskitilaa"
+
+msgid "Failed to change CD"
+msgstr "CD:n vaihtaminen epäonnistui"
+
+msgid "Failed to connect: "
+msgstr "Yhteyden muodostaminen epäonnistui: "
+
+msgid "Failed to initiate connection"
+msgstr "Yhteyden muodostaminen epäonnistui"
+
+msgid "Failed to read stdin: "
+msgstr "Vakiosyötteen lukeminen epäonnistui: "
+
+msgid "File Transfers"
+msgstr "Tiedostonsiirrot"
+
+msgid "Finding guest domain"
+msgstr "Vierastoimialueen etsiminen"
+
+msgid "Folder sharing"
+msgstr "Kansioiden jakaminen"
+
+msgid "For example, spice://foo.example.org:5900"
+msgstr "Esimerkiksi, spice://foo.example.org:5900"
+
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr "Koko näyttö"
+
+msgid "GUID:"
+msgstr "GUID:"
+
+#, c-format
+msgid "Guest '%s' is not reachable"
+msgstr "Vieras '%s' ei ole tavoitettavissa"
+
+msgid "Guest Details"
+msgstr "Vieraan tiedot"
+
+msgid "Guest domain has shutdown"
+msgstr "Vierastoimialue on sammutettu"
+
+msgctxt "shortcut window"
+msgid "Guest input devices"
+msgstr "Vieraan syötelaitteet"
+
+#, c-format
+msgid "Invalid file %s: "
+msgstr "Virheellinen tiedosto %s: "
+
+#, c-format
+msgid "Invalid kiosk-quit argument: %s"
+msgstr "Virheellinen kiosk-quit-argumentti: %s"
+
+msgid "Invalid password"
+msgstr "Väärä salasana"
+
+msgid "Loading..."
+msgstr "Ladataan..."
+
+msgid "Name"
+msgstr "Nimi"
+
+msgid "Name:"
+msgstr "Nimi:"
+
+msgid "No ISO files in domain"
+msgstr "Ei ISO-tiedostoja toimialueella"
+
+msgid "No connection was chosen"
+msgstr "Yhteyttä ei valittu"
+
+msgid "No running virtual machine found"
+msgstr "Käynnissä olevaa virtuaalikonetta ei löytynyt"
+
+msgid "No virtual machine was chosen"
+msgstr "Virtuaalikonetta ei valittu"
+
+msgid "Open in full screen mode (adjusts guest resolution to fit the client)"
+msgstr ""
+"Avaa koko näytön tilassa (säätää vierasresoluutiota asiakkaalle sopivaksi)"
+
+msgid "Password:"
+msgstr "Salasana:"
+
+msgid "Please add an extension to the file name"
+msgstr "Lisää tiedostopääte tiedostonimeen"
+
+msgid "Power _down"
+msgstr "_Sammuta"
+
+msgid "Preferences"
+msgstr "Asetukset"
+
+msgid "QEMU debug console"
+msgstr "QEMU-virheenkorjauskonsoli"
+
+msgid "QEMU human monitor"
+msgstr "QEMU manuaalinen tarkkailu"
+
+msgid "Quit on given condition in kiosk mode"
+msgstr "Sulje, jos annettu ehto täyttyy kioskitilassa"
+
+msgid "Read-only"
+msgstr "Vain luku"
+
+msgid "Recent connections"
+msgstr "Viimeaikaiset yhteydet"
+
+msgid "Reconnect to domain upon restart"
+msgstr "Muodosta yhteys toimialueeseen uudelleenkäynnistyksen jälkeen"
+
+msgid "Refresh"
+msgstr "Päivitä"
+
+msgctxt "shortcut window"
+msgid "Release cursor"
+msgstr "Vapauta kohdistin"
+
+msgid ""
+"Remap keys format key=keymod+key e.g. F1=SHIFT+CTRL+F1,1=SHIFT+F1,ALT_L=Void"
+msgstr ""
+"Näppäinten uudelleenkartoitusmuoto näppäin=näppäinmoodi+näppäin esim. "
+"F1=SHIFT+CTRL+F1,1=SHIFT+F1,ALT_L=Void"
+
+msgid "Remote Viewer"
+msgstr "Etäkatselu"
+
+msgid ""
+"Remote Viewer provides a graphical viewer for the guest OS display. At this "
+"time it supports guest OS using the VNC or SPICE protocols. Further "
+"protocols may be supported in the future as user demand dictates. The viewer "
+"can connect directly to both local and remotely hosted guest OS, optionally "
+"using SSL/TLS encryption."
+msgstr ""
+"Remote Viewer tarjoaa graafisen katseluohjelman vieras-käyttöjärjestelmän "
+"näytölle. Tällä hetkellä se tukee vieras-käyttöjärjestelmää VNC- tai SPICE-"
+"protokollien avulla. Muita protokollia voidaan tukea tulevaisuudessa "
+"käyttäjien vaatimusten mukaan. Katsoja voi muodostaa yhteyden sekä "
+"paikallisiin että etäisännöityihin vieras käyttöjärjestelmiin, valinnaisesti "
+"myös käyttämällä SSL/TLS-salausta."
+
+msgid "Remote viewer client"
+msgstr "Etäkatseluohjelma"
+
+msgid "Remotely access virtual machines"
+msgstr "Etäyhteys virtuaalikoneisiin"
+
+#, c-format
+msgid "Run '%s --help' to see a full list of available command line options\n"
+msgstr ""
+"Suorita '%s --help' nähdäksesi kaikki käytettävissä olevat "
+"komentorivivalitsimet.\n"
+
+msgid "Save screenshot"
+msgstr "Tallenna kuvakaappaus"
+
+msgid "Screenshot.png"
+msgstr "Kuvakaappaus.png"
+
+#. Create the widgets
+msgid "Select USB devices for redirection"
+msgstr "Valitse USB-laitteet uudelleenohjattavaksi"
+
+msgid "Select the virtual machine only by its ID"
+msgstr "Valitse virtuaalikone vain sen ID-tunnuksella"
+
+msgid "Select the virtual machine only by its UUID"
+msgstr "Valitse virtuaalikone vain sen UUID-tunnuksella"
+
+msgid "Select the virtual machine only by its name"
+msgstr "Valitse virtuaalikone vain sen nimellä"
+
+msgid "Selected"
+msgstr "Valitut"
+
+msgctxt "shortcut window"
+msgid "Send secure attention (Ctrl-Alt-Del)"
+msgstr "Lähetä turvallinen huomio (Ctrl-Alt-Del)"
+
+msgid "Serial"
+msgstr "Sarja"
+
+msgid "Set window title"
+msgstr "Aseta ikkunan otsikko"
+
+msgid "Share client session"
+msgstr "Jaa asiakasistunto"
+
+msgid "Share clipboard"
+msgstr "Jaa leikepöytä"
+
+msgid "Share folder"
+msgstr "Jaa hakemisto"
+
+msgid "Show / hide password text"
+msgstr "Näytä / piilota salasanateksti"
+
+msgctxt "shortcut window"
+msgid "Smartcard insert"
+msgstr "Älykortin lisäys"
+
+msgctxt "shortcut window"
+msgid "Smartcard remove"
+msgstr "Älykortin poisto"
+
+msgid "Spice"
+msgstr "Spice"
+
+msgid "The Fedora Translation Team"
+msgstr "Fedoran käännösryhmä"
+
+#, c-format
+msgid "Transferring %u file of %u..."
+msgid_plural "Transferring %u files of %u..."
+msgstr[0] "Siirretään %u tiedosto %u:sta ..."
+msgstr[1] "Siirretään %u tiedostoa %u:sta ..."
+
+msgid "Transferring 1 file..."
+msgstr "Siirretään 1 tiedosto..."
+
+msgctxt "shortcut window"
+msgid "USB device reset"
+msgstr "USB-laitteen nollaus"
+
+#, c-format
+msgid "USB redirection error: %s"
+msgstr "USB-uudelleenohjauksen virhe: %s"
+
+#, c-format
+msgid "Unable to authenticate with remote desktop server at %s: %s\n"
+msgstr ""
+"Tunnistautuminen etätyöpöytäpalvelimeen epäonnistui osoitteessa %s: %s\n"
+
+#, c-format
+msgid "Unable to authenticate with remote desktop server: %s"
+msgstr "Tunnistautuminen etätyöpöytäpalvelimeen epäonnistui: %s"
+
+#, c-format
+msgid "Unable to connect to libvirt with URI: %s."
+msgstr "Yhteyttä libvirtiin ei voida muodostaa URI:lla: %s."
+
+#, c-format
+msgid "Unable to connect to the graphic server %s"
+msgstr "Ei voida muodostaa yhteyttä graafiseen palvelimeen %s"
+
+#, c-format
+msgid "Unable to connect: %s"
+msgstr "Yhdistäminen epäonnistui: %s"
+
+msgid "Unable to connnect to oVirt"
+msgstr "Yhteyttä oVirtiin ei saada"
+
+#, c-format
+msgid "Unable to determine image format for file '%s'"
+msgstr "Tiedoston '%s' levykuvamuotoa ei voida määrittää"
+
+msgctxt "Unknown UUID"
+msgid "Unknown"
+msgstr "Tuntematon"
+
+msgctxt "Unknown name"
+msgid "Unknown"
+msgstr "Tuntematon"
+
+msgid "Unspecified error"
+msgstr "Määrittelemätön virhe"
+
+#, c-format
+msgid "Unsupported authentication type %u"
+msgstr "Ei tuettu tunnistautumistyyppi %u"
+
+#, c-format
+msgid "Unsupported graphic type '%s'"
+msgstr "Grafiikkatyyppi '%s' ei tuettu"
+
+msgid "Username:"
+msgstr "Käyttäjätunnus:"
+
+msgid "VNC does not provide GUID"
+msgstr "VNC ei tarjoa GUID-tunnusta"
+
+msgctxt "shortcut window"
+msgid "Viewer"
+msgstr "Katselin"
+
+msgid "Virt Viewer"
+msgstr "Virt katseluohjelma"
+
+msgid "Virt-Viewer connection file"
+msgstr "Virt katseluohjelman yhteystiedosto"
+
+#, c-format
+msgid "Virtual machine %s is not running"
+msgstr "Virtuaalikone %s ei ole käynnissä"
+
+msgid "Virtual machine graphical console"
+msgstr "Virtuaalikoneen graafinen konsoli"
+
+msgid "Wait for domain to start"
+msgstr "Odota toimialueen käynnistymistä"
+
+#, c-format
+msgid "Waiting for display %d..."
+msgstr "Odotetaan näyttöä %d..."
+
+msgid "Waiting for guest domain to be created"
+msgstr "Odottaa vieras toimialueen luomista"
+
+msgid "Waiting for guest domain to re-start"
+msgstr "Odottaa vieras toimialueen uudellenkäynnistystä"
+
+msgid "Waiting for guest domain to start"
+msgstr "Odottaa vieras toimialueen käynnistymistä"
+
+msgid "Waiting for libvirt to start"
+msgstr "Odottaa libvirtin käynnistymistä"
+
+msgid "Zoom _In"
+msgstr "_Lähennä"
+
+msgid "Zoom _Out"
+msgstr "L_oitonna"
+
+msgctxt "shortcut window"
+msgid "Zoom in"
+msgstr "Lähennä"
+
+#, c-format
+msgid "Zoom level must be within %d-%d\n"
+msgstr "Zoomaustason on oltava %d-%d sisällä\n"
+
+msgid "Zoom level of window, in percentage"
+msgstr "Ikkunan zoomaustaso prosentteina"
+
+msgctxt "shortcut window"
+msgid "Zoom out"
+msgstr "Loitonna"
+
+msgctxt "shortcut window"
+msgid "Zoom reset"
+msgstr "Zoomauksen nollaus"
+
+msgid "[none]"
+msgstr "[ei mitään]"
+
+msgid "_About"
+msgstr "_Tietoja"
+
+msgid "_Auto resize"
+msgstr "_Automaattinen koon muuttaminen"
+
+msgid "_Cancel"
+msgstr "_Peru"
+
+msgid "_Close"
+msgstr "_Sulje"
+
+msgid "_Guest details"
+msgstr "_Vieraan tiedot"
+
+msgid "_Keyboard shortcuts"
+msgstr "Pi_kanäppäimet"
+
+msgid "_Normal Size"
+msgstr "_Normaali koko"
+
+msgid "_OK"
+msgstr "_OK"
+
+msgid "_Pause"
+msgstr "_Keskeytä"
+
+msgid "_Preferences…"
+msgstr "_Asetukset…"
+
+msgid "_Reset"
+msgstr "_Nollaa"
+
+msgid "_Save"
+msgstr "_Tallenna"
+
+msgid "_Screenshot"
+msgstr "_Kuvakaappaus"
+
+msgid "failed to parse oVirt URI"
+msgstr "oVirt URI:n jäsentäminen epäonnistui"
+
+msgid "label"
+msgstr "nimiö"
+
+#, c-format
+msgid "oVirt VM %s has no display"
+msgstr "oVirt VM %s:lla ei ole näyttöä"
+
+#, c-format
+msgid "oVirt VM %s has no host information"
+msgstr "oVirt VM %s:lla ei ole isäntätietoa"
+
+#, c-format
+msgid "oVirt VM %s has unknown display type: %u"
+msgstr "oVirt VM:llä %s on tuntematon näyttötyyppi: %u"
+
+#, c-format
+msgid "oVirt VM %s is not running"
+msgstr "oVirt VM %s ei ole käynnissä"
+
+msgid "only SSH or UNIX socket connection supported."
+msgstr "vain SSH- tai UNIX-pistokeyhteyttä tuetaan."
+
+#~ msgid "Close"
+#~ msgstr "Sulje"
+
+#~ msgid "Ctrl_L+Alt_L"
+#~ msgstr "Ctrl_L+Alt_L"
+
+#~ msgid "Select ISO"
+#~ msgstr "Valitse ISO"
+
+#~ msgid "(Press %s to release pointer) %s - %s"
+#~ msgstr "(Paina %s vapauttaaksesi osoitin) %s - %s"
+
+#~ msgid "(Press %s to release pointer) - %s"
+#~ msgstr "(Paina %s vapauttaaksesi osoitin)- %s"
+
+#~ msgid "Disconnect"
+#~ msgstr "Katkaise yhteys"
+
+#~ msgid "Leave fullscreen"
+#~ msgstr "Poistu koko näytön tilasta"
+
+#~ msgid "Minimize"
+#~ msgstr "Pienennä"
+
+#~ msgid "Release cursor"
+#~ msgstr "Vapauta kohdistin"
+
+#~ msgid "Send key combination"
+#~ msgstr "Lähetä näppäinyhdistelmä"
+
+#~ msgid "Show password"
+#~ msgstr "Näytä salasana"
+
+#~ msgid "Smartcard insertion"
+#~ msgstr "Älykortin asettaminen"
+
+#~ msgid "Smartcard removal"
+#~ msgstr "Älykortin poistaminen"
+
+#~ msgid "USB device selection"
+#~ msgstr "USB-laitteen valinta"
+
+#~ msgid "_Change CD"
+#~ msgstr "_Vaihda CD"
+
+#~ msgid "_Displays"
+#~ msgstr "_Näytöt"
+
+#~ msgid "_File"
+#~ msgstr "_Tiedosto"
+
+#~ msgid "_Full screen"
+#~ msgstr "Koko n_äyttö"
+
+#~ msgid "_Guest Details"
+#~ msgstr "_Vieraan tiedot"
+
+#~ msgid "_Help"
+#~ msgstr "_Ohje"
+
+#~ msgid "_Machine"
+#~ msgstr "_Kone"
+
+#~ msgid "_Power down"
+#~ msgstr "_Sammuta"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Asetukset"
+
+#~ msgid "_Quit"
+#~ msgstr "_Lopeta"
+
+#~ msgid "_Send key"
+#~ msgstr "_Lähetä avain"
+
+#~ msgid "_USB device selection"
+#~ msgstr "_USB-laitteen valinta"
+
+#~ msgid "_View"
+#~ msgstr "_Näytä"
+
+#~ msgid "_Zoom"
+#~ msgstr "_Zoomaa"

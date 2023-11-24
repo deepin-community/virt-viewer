@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <menu id="action-menu">
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">_Screenshot</attribute>
+        <attribute name="action">win.screenshot</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">_Preferences…</attribute>
+        <attribute name="action">win.preferences</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">Zoom _In</attribute>
+        <attribute name="action">win.zoom-in</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Zoom _Out</attribute>
+        <attribute name="action">win.zoom-out</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">_Normal Size</attribute>
+        <attribute name="action">win.zoom-reset</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">_Auto resize</attribute>
+        <attribute name="action">app.auto-resize</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">_About</attribute>
+        <attribute name="action">win.about</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">_Keyboard shortcuts</attribute>
+        <attribute name="action">win.show-help-overlay</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">_Guest details</attribute>
+        <attribute name="action">win.guest-details</attribute>
+      </item>
+    </section>
+  </menu>
+
+  <menu id="machine-menu">
+    <section>
+    </section>
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">_Pause</attribute>
+        <attribute name="action">app.machine-pause</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">_Reset</attribute>
+        <attribute name="action">app.machine-reset</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Power _down</attribute>
+        <attribute name="action">app.machine-powerdown</attribute>
+      </item>
+    </section>
+  </menu>
+</interface>

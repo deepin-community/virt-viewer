@@ -1,0 +1,80 @@
+stages:
+  - containers
+  - builds
+  - sanity_checks
+
+.script_variables: &script_variables |
+  export MAKEFLAGS="-j$(getconf _NPROCESSORS_ONLN)"
+  export SCRATCH_DIR="/tmp/scratch"
+  export VROOT="$SCRATCH_DIR/vroot"
+  export LIBDIR="$VROOT/lib"
+  export LD_LIBRARY_PATH="$LIBDIR"
+  export PATH="$VROOT/bin:$PATH"
+  export PKG_CONFIG_PATH="$LIBDIR/pkgconfig"
+
+.native_build_job:
+  extends: .gitlab_native_build_job
+  before_script:
+    - *script_variables
+  script:
+    - meson build
+    - ninja -C build dist;
+    - if test -x /usr/bin/rpmbuild && test "$RPM" != "skip";
+      then
+        rpmbuild --nodeps -ta build/meson-dist/virt-viewer-*.tar.xz;
+      fi
+
+.native_git_build_job:
+  extends: .gitlab_native_build_job
+  before_script:
+    - *script_variables
+  script:
+    - pushd "$PWD"
+    - mkdir -p "$SCRATCH_DIR"
+    - cd "$SCRATCH_DIR"
+    - git clone --depth 1 https://gitlab.com/libvirt/libvirt.git
+    - git clone --depth 1 https://gitlab.com/libvirt/libvirt-glib.git
+    - git clone --depth 1 https://gitlab.gnome.org/GNOME/gtk-vnc.git
+    - cd libvirt
+    - meson build -Ddriver_libvirtd=disabled "--prefix=$VROOT" "--libdir=$LIBDIR"
+    - ninja -C build install
+    - cd ../libvirt-glib
+    - meson build --prefix="$VROOT" --libdir="$LIBDIR" -Ddocs=disabled
+    - $NINJA -C build install
+    - cd ../gtk-vnc
+    - git submodule update --init
+    - meson build --prefix="$VROOT" --libdir="$LIBDIR"
+    - $NINJA -C build install
+    - popd
+    - meson build
+    - ninja -C build dist;
+    - if test -x /usr/bin/rpmbuild && test "$RPM" != "skip";
+      then
+        rpmbuild --nodeps -ta build/meson-dist/virt-viewer-*.tar.xz;
+      fi
+
+.cross_build_job:
+  extends: .gitlab_cross_build_job
+  image: $CI_REGISTRY_IMAGE/ci-$NAME:latest
+  cache:
+    paths:
+      - ccache/
+    key: "$CI_JOB_NAME"
+  before_script:
+    - *script_variables
+  script:
+    - meson build $MESON_OPTS
+    - $NINJA -C build
+
+include: '/ci/gitlab.yml'
+
+codestyle:
+  stage: sanity_checks
+  image: $CI_REGISTRY_IMAGE/ci-centos-8:latest
+  needs:
+    - x86_64-centos-8-container
+  before_script:
+    - *script_variables
+  script:
+    - meson build || (cat build/meson-logs/meson-log.txt && exit 1)
+    - meson test -C build --suite syntax-check --no-rebuild || (cat build/meson-logs/testlog.txt && exit 1)

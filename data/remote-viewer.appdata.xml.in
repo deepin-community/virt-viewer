@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+ <id>remote-viewer</id>
+ <metadata_license>CC0-1.0</metadata_license>
+ <project_license>GPL-2.0+</project_license>
+ <name>Remote Viewer</name>
+ <summary>Remotely access virtual machines</summary>
+ <description>
+  <p>
+    Remote Viewer provides a graphical viewer for the guest OS
+    display. At this time it supports guest OS using the VNC
+    or SPICE protocols. Further protocols may be supported in
+    the future as user demand dictates. The viewer can connect
+    directly to both local and remotely hosted guest OS, optionally
+    using SSL/TLS encryption.
+  </p>
+ </description>
+ <screenshots>
+  <screenshot type="default">
+    <image>https://virt-manager.org/appdata/en_US/virt-viewer/general.png</image>
+  </screenshot>
+  <screenshot>
+    <image>https://virt-manager.org/appdata/en_US/virt-viewer/connection.png</image>
+  </screenshot>
+  <screenshot>
+    <image>https://virt-manager.org/appdata/en_US/virt-viewer/usbredir.png</image>
+  </screenshot>
+  <screenshot>
+    <image>https://virt-manager.org/appdata/en_US/virt-viewer/shared_folder.png</image>
+  </screenshot>
+ </screenshots>
+ <provides>
+  <binary>remote-viewer</binary>
+ </provides>
+ <url type="homepage">https://gitlab.com/virt-viewer/virt-viewer/</url>
+ <url type="bugtracker">https://gitlab.com/virt-viewer/virt-viewer/-/issues</url>
+ <url type="translate">https://translate.fedoraproject.org/projects/virt-viewer/virt-viewer/</url>
+</component>

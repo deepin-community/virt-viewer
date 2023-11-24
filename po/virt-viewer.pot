@@ -1,0 +1,829 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the virt-viewer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: virt-viewer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-18 18:29+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: src/remote-viewer.c:150
+#, c-format
+msgid ""
+"\n"
+"Error: can't handle multiple URIs\n"
+"\n"
+msgstr ""
+
+#: src/virt-viewer.c:187
+#, c-format
+msgid ""
+"\n"
+"No ID|UUID|DOMAIN-NAME was specified for '%s'\n"
+"\n"
+msgstr ""
+
+#: src/virt-viewer.c:175
+#, c-format
+msgid ""
+"\n"
+"Usage: %s [OPTIONS] [ID|UUID|DOMAIN-NAME]\n"
+"\n"
+msgstr ""
+
+#. translators:
+#. * This is "<ungrab accelerator> <subtitle> - <appname>"
+#. * Such as: "(Press Ctrl+Alt to release pointer) BigCorpTycoon MOTD - Virt Viewer"
+#.
+#: src/virt-viewer-window.c:1332
+#, c-format
+msgid "%s %s - %s"
+msgstr ""
+
+#. translators:
+#. * This is "<ungrab accelerator> - <appname>"
+#. * Such as: "(Press Ctrl+Alt to release pointer) - Virt Viewer"
+#.
+#. translators:
+#. * This is "<subtitle> - <appname>"
+#. * Such as: "BigCorpTycoon MOTD - Virt Viewer"
+#.
+#: src/virt-viewer-window.c:1341 src/virt-viewer-window.c:1350
+#, c-format
+msgid "%s - %s"
+msgstr ""
+
+#: src/virt-viewer-app.c:2583
+#, c-format
+msgid "%s version %s"
+msgstr ""
+
+#: src/virt-viewer-window.c:1324
+#, c-format
+msgid "(Press %s to release pointer)"
+msgstr ""
+
+#: src/remote-viewer-iso-list-dialog.c:220
+msgid "<b>Loading...</b>"
+msgstr ""
+
+#: src/virt-viewer-app.c:3563
+msgid "<never|always>"
+msgstr ""
+
+#: src/virt-viewer-app.c:3571
+msgid "<never|on-disconnect>"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-about.ui:19
+msgid "A remote desktop client built with GTK-VNC, SPICE-GTK and libvirt"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-about.ui:8
+msgid "About Virt-Viewer"
+msgstr ""
+
+#: data/remote-viewer.desktop.in:4
+msgid "Access remote desktops"
+msgstr ""
+
+#: src/virt-viewer-app.c:883
+#, c-format
+msgid "Address is too long for UNIX socket_path: %s"
+msgstr ""
+
+#: src/virt-viewer-file.c:931
+#, c-format
+msgid "At least %s version %s is required to setup this connection"
+msgstr ""
+
+#: src/virt-viewer-file.c:923
+#, c-format
+msgid ""
+"At least %s version %s is required to setup this connection, see %s for "
+"details"
+msgstr ""
+
+#: src/virt-viewer.c:135
+msgid "Attach to the local display using libvirt"
+msgstr ""
+
+#: src/virt-viewer.c:1046
+msgid "Authentication failed."
+msgstr ""
+
+#: src/virt-viewer-auth.c:158
+#, c-format
+msgid ""
+"Authentication is required for the %s connection to:\n"
+"\n"
+"<b>%s</b>\n"
+"\n"
+msgstr ""
+
+#: src/virt-viewer-auth.c:162
+#, c-format
+msgid "Authentication is required for the %s connection:\n"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-auth.ui:8
+msgid "Authentication required"
+msgstr ""
+
+#: src/remote-viewer.c:456 src/virt-viewer.c:1098
+msgid "Authentication was cancelled"
+msgstr ""
+
+#: src/virt-viewer-app.c:3563
+msgid "Automatically resize remote framebuffer"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-vm-connection.ui:96
+msgid "Available virtual machines"
+msgstr ""
+
+#: src/resources/ui/remote-viewer-connect.ui:135
+#: src/resources/ui/virt-viewer-vm-connection.ui:39
+msgid "C_onnect"
+msgstr ""
+
+#: src/virt-viewer-app.c:1507
+#, c-format
+msgid "Can't connect to channel: %s"
+msgstr ""
+
+#: src/remote-viewer.c:799
+msgid "Cannot determine the connection type from URI"
+msgstr ""
+
+#: src/virt-viewer.c:545
+#, c-format
+msgid "Cannot determine the graphic type for the guest %s"
+msgstr ""
+
+#: src/virt-viewer.c:594
+#, c-format
+msgid "Cannot determine the host for the guest %s"
+msgstr ""
+
+#: src/virt-viewer.c:918
+msgid "Cannot get guest state"
+msgstr ""
+
+#: src/remote-viewer-iso-list-dialog.c:401 src/resources/ui/virt-viewer.ui:80
+#: src/resources/ui/virt-viewer.ui:199
+msgid "Change CD"
+msgstr ""
+
+#: src/virt-viewer.c:915
+msgid "Checking guest domain status"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-vm-connection.ui:8
+msgid "Choose a virtual machine"
+msgstr ""
+
+#: src/virt-viewer-app.c:1492
+msgid "Connect to SSH failed."
+msgstr ""
+
+#: src/virt-viewer-app.c:1526
+msgid "Connect to channel unsupported."
+msgstr ""
+
+#: src/virt-viewer.c:137
+msgid "Connect to hypervisor"
+msgstr ""
+
+#: src/virt-viewer-app.c:1778
+msgid "Connected to graphic server"
+msgstr ""
+
+#: src/virt-viewer-app.c:899
+#, c-format
+msgid "Connecting to UNIX socket failed: %s"
+msgstr ""
+
+#: src/virt-viewer-app.c:1616
+msgid "Connecting to graphic server"
+msgstr ""
+
+#: src/resources/ui/remote-viewer-connect.ui:24
+msgid "Connection _Address"
+msgstr ""
+
+#: src/resources/ui/remote-viewer-connect.ui:7
+msgid "Connection details"
+msgstr ""
+
+#: src/virt-viewer-display-vte.c:184
+msgid "Console support is compiled out!"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-about.ui:17
+msgid ""
+"Copyright (C) 2007-2012 Daniel P. Berrange\n"
+"Copyright (C) 2007-2020 Red Hat, Inc."
+msgstr ""
+
+#: src/remote-viewer.c:699
+msgid "Couldn't open oVirt session: "
+msgstr ""
+
+#: src/virt-viewer-app.c:893
+#, c-format
+msgid "Creating UNIX socket failed: %s"
+msgstr ""
+
+#: src/remote-viewer-iso-list-dialog.c:125
+#, c-format
+msgid "Current: %s"
+msgstr ""
+
+#: src/virt-viewer-app.c:3567
+msgid "Cursor display mode: 'local' or 'auto'"
+msgstr ""
+
+#: src/virt-viewer-app.c:3561
+msgid "Customise hotkeys"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-shortcuts.ui:47
+msgctxt "shortcut window"
+msgid "Devices"
+msgstr ""
+
+#: src/virt-viewer.c:133
+msgid "Direct connection with no automatic tunnels"
+msgstr ""
+
+#: src/virt-viewer-app.c:3166
+#, c-format
+msgid "Display _%d"
+msgstr ""
+
+#: src/virt-viewer-app.c:1591
+msgid "Display can only be attached through libvirt with --attach"
+msgstr ""
+
+#: src/virt-viewer-app.c:3575
+msgid "Display debugging information"
+msgstr ""
+
+#: src/virt-viewer-app.c:3573
+msgid "Display verbose information"
+msgstr ""
+
+#: src/virt-viewer-app.c:3555
+msgid "Display version information"
+msgstr ""
+
+#: src/virt-viewer-app.c:705
+msgid "Do not ask me again"
+msgstr ""
+
+#: src/virt-viewer-app.c:703
+msgid "Do you want to close the session?"
+msgstr ""
+
+#: src/virt-viewer-app.c:3569
+msgid "Enable kiosk mode"
+msgstr ""
+
+#: src/remote-viewer-iso-list-dialog.c:343
+msgid "Failed to change CD"
+msgstr ""
+
+#: src/virt-viewer.c:1105
+msgid "Failed to connect: "
+msgstr ""
+
+#: src/remote-viewer.c:727
+msgid "Failed to initiate connection"
+msgstr ""
+
+#: src/remote-viewer.c:772
+msgid "Failed to read stdin: "
+msgstr ""
+
+#: src/virt-viewer-file-transfer-dialog.c:123
+msgid "File Transfers"
+msgstr ""
+
+#: src/virt-viewer.c:879
+msgid "Finding guest domain"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-preferences.ui:47
+msgid "Folder sharing"
+msgstr ""
+
+#: src/resources/ui/remote-viewer-connect.ui:54
+msgid "For example, spice://foo.example.org:5900"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-shortcuts.ui:38
+#: src/resources/ui/virt-viewer-shortcuts.ui:72
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-guest-details.ui:66
+msgid "GUID:"
+msgstr ""
+
+#: src/virt-viewer.c:622
+#, c-format
+msgid "Guest '%s' is not reachable"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-guest-details.ui:7
+msgid "Guest Details"
+msgstr ""
+
+#: src/virt-viewer-app.c:1715
+msgid "Guest domain has shutdown"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-shortcuts.ui:81
+msgctxt "shortcut window"
+msgid "Guest input devices"
+msgstr ""
+
+#: src/remote-viewer.c:789
+#, c-format
+msgid "Invalid file %s: "
+msgstr ""
+
+#: src/virt-viewer-app.c:3544
+#, c-format
+msgid "Invalid kiosk-quit argument: %s"
+msgstr ""
+
+#: src/virt-viewer-session-spice.c:739
+msgid "Invalid password"
+msgstr ""
+
+#: src/resources/ui/remote-viewer-iso-list.ui:30
+msgid "Loading..."
+msgstr ""
+
+#: src/resources/ui/remote-viewer-iso-list.ui:109
+#: src/resources/ui/virt-viewer-vm-connection.ui:74
+msgid "Name"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-guest-details.ui:54
+msgid "Name:"
+msgstr ""
+
+#: src/remote-viewer-iso-list-dialog.c:170
+msgid "No ISO files in domain"
+msgstr ""
+
+#: src/remote-viewer.c:755
+msgid "No connection was chosen"
+msgstr ""
+
+#: src/virt-viewer-vm-connection.c:64
+msgid "No running virtual machine found"
+msgstr ""
+
+#: src/virt-viewer-vm-connection.c:97
+msgid "No virtual machine was chosen"
+msgstr ""
+
+#: src/virt-viewer-app.c:3559
+msgid "Open in full screen mode (adjusts guest resolution to fit the client)"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-auth.ui:93
+msgid "Password:"
+msgstr ""
+
+#: src/virt-viewer-window.c:1115
+msgid "Please add an extension to the file name"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-menus.ui:63
+msgid "Power _down"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-preferences.ui:8
+msgid "Preferences"
+msgstr ""
+
+#: src/virt-viewer-session-spice.c:1033
+msgid "QEMU debug console"
+msgstr ""
+
+#: src/virt-viewer-session-spice.c:1031
+msgid "QEMU human monitor"
+msgstr ""
+
+#: src/virt-viewer-app.c:3571
+msgid "Quit on given condition in kiosk mode"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-preferences.ui:82
+msgid "Read-only"
+msgstr ""
+
+#: src/resources/ui/remote-viewer-connect.ui:79
+msgid "Recent connections"
+msgstr ""
+
+#: src/virt-viewer.c:141
+msgid "Reconnect to domain upon restart"
+msgstr ""
+
+#: src/remote-viewer-iso-list-dialog.c:304
+msgid "Refresh"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-shortcuts.ui:92
+msgctxt "shortcut window"
+msgid "Release cursor"
+msgstr ""
+
+#: src/virt-viewer-app.c:3565
+msgid ""
+"Remap keys format key=keymod+key e.g. F1=SHIFT+CTRL+F1,1=SHIFT+F1,ALT_L=Void"
+msgstr ""
+
+#: data/remote-viewer.appdata.xml.in:6 data/remote-viewer.desktop.in:3
+#: src/remote-viewer-main.c:39
+msgid "Remote Viewer"
+msgstr ""
+
+#: data/remote-viewer.appdata.xml.in:9
+msgid ""
+"Remote Viewer provides a graphical viewer for the guest OS display. At this "
+"time it supports guest OS using the VNC or SPICE protocols. Further "
+"protocols may be supported in the future as user demand dictates. The viewer "
+"can connect directly to both local and remotely hosted guest OS, optionally "
+"using SSL/TLS encryption."
+msgstr ""
+
+#: src/remote-viewer.c:125
+msgid "Remote viewer client"
+msgstr ""
+
+#: data/remote-viewer.appdata.xml.in:7
+msgid "Remotely access virtual machines"
+msgstr ""
+
+#: src/remote-viewer.c:166 src/virt-viewer.c:205
+#, c-format
+msgid "Run '%s --help' to see a full list of available command line options\n"
+msgstr ""
+
+#: src/virt-viewer-window.c:1089
+msgid "Save screenshot"
+msgstr ""
+
+#: src/virt-viewer-window.c:1101
+msgid "Screenshot.png"
+msgstr ""
+
+#. Create the widgets
+#: src/virt-viewer-session-spice.c:839
+msgid "Select USB devices for redirection"
+msgstr ""
+
+#: src/virt-viewer.c:145
+msgid "Select the virtual machine only by its ID"
+msgstr ""
+
+#: src/virt-viewer.c:147
+msgid "Select the virtual machine only by its UUID"
+msgstr ""
+
+#: src/virt-viewer.c:143
+msgid "Select the virtual machine only by its name"
+msgstr ""
+
+#: src/resources/ui/remote-viewer-iso-list.ui:96
+msgid "Selected"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-shortcuts.ui:85
+msgctxt "shortcut window"
+msgid "Send secure attention (Ctrl-Alt-Del)"
+msgstr ""
+
+#: src/virt-viewer-session-spice.c:1029
+msgid "Serial"
+msgstr ""
+
+#: src/remote-viewer.c:116
+msgid "Set window title"
+msgstr ""
+
+#: src/remote-viewer.c:118 src/virt-viewer.c:149
+msgid "Share client session"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-preferences.ui:96
+msgid "Share clipboard"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-preferences.ui:70
+msgid "Share folder"
+msgstr ""
+
+#: src/virt-viewer-auth.c:152
+msgid "Show / hide password text"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-shortcuts.ui:58
+msgctxt "shortcut window"
+msgid "Smartcard insert"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-shortcuts.ui:65
+msgctxt "shortcut window"
+msgid "Smartcard remove"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-preferences.ui:132
+msgid "Spice"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-about.ui:25
+msgid "The Fedora Translation Team"
+msgstr ""
+
+#: src/virt-viewer-file-transfer-dialog.c:151
+#, c-format
+msgid "Transferring %u file of %u..."
+msgid_plural "Transferring %u files of %u..."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/virt-viewer-file-transfer-dialog.c:149
+msgid "Transferring 1 file..."
+msgstr ""
+
+#: src/resources/ui/virt-viewer-shortcuts.ui:51
+msgctxt "shortcut window"
+msgid "USB device reset"
+msgstr ""
+
+#: src/virt-viewer-app.c:1869
+#, c-format
+msgid "USB redirection error: %s"
+msgstr ""
+
+#: src/virt-viewer-app.c:1840
+#, c-format
+msgid "Unable to authenticate with remote desktop server at %s: %s\n"
+msgstr ""
+
+#: src/virt-viewer-app.c:1858
+#, c-format
+msgid "Unable to authenticate with remote desktop server: %s"
+msgstr ""
+
+#: src/virt-viewer.c:1038
+#, c-format
+msgid "Unable to connect to libvirt with URI: %s."
+msgstr ""
+
+#: src/virt-viewer-app.c:1814
+#, c-format
+msgid "Unable to connect to the graphic server %s"
+msgstr ""
+
+#: src/remote-viewer.c:818
+#, c-format
+msgid "Unable to connect: %s"
+msgstr ""
+
+#: src/virt-viewer-window.c:1243
+msgid "Unable to connnect to oVirt"
+msgstr ""
+
+#: src/virt-viewer-window.c:1066
+#, c-format
+msgid "Unable to determine image format for file '%s'"
+msgstr ""
+
+#: src/virt-viewer-window.c:1155
+msgctxt "Unknown UUID"
+msgid "Unknown"
+msgstr ""
+
+#: src/virt-viewer-window.c:1153
+msgctxt "Unknown name"
+msgid "Unknown"
+msgstr ""
+
+#: src/remote-viewer-iso-list-dialog.c:322
+#: src/virt-viewer-file-transfer-dialog.c:196
+msgid "Unspecified error"
+msgstr ""
+
+#: src/virt-viewer-session-vnc.c:234
+#, c-format
+msgid "Unsupported authentication type %u"
+msgstr ""
+
+#: src/virt-viewer-app.c:1408
+#, c-format
+msgid "Unsupported graphic type '%s'"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-auth.ui:105
+msgid "Username:"
+msgstr ""
+
+#: src/virt-viewer-display-vnc.c:139
+msgid "VNC does not provide GUID"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-shortcuts.ui:13
+msgctxt "shortcut window"
+msgid "Viewer"
+msgstr ""
+
+#: src/virt-viewer-main.c:38
+msgid "Virt Viewer"
+msgstr ""
+
+#: data/virt-viewer-mime.xml.in:5
+msgid "Virt-Viewer connection file"
+msgstr ""
+
+#: src/virt-viewer.c:851
+#, c-format
+msgid "Virtual machine %s is not running"
+msgstr ""
+
+#: src/virt-viewer.c:156
+msgid "Virtual machine graphical console"
+msgstr ""
+
+#: src/virt-viewer.c:139
+msgid "Wait for domain to start"
+msgstr ""
+
+#: src/virt-viewer-app.c:1285
+#, c-format
+msgid "Waiting for display %d..."
+msgstr ""
+
+#: src/virt-viewer.c:883
+msgid "Waiting for guest domain to be created"
+msgstr ""
+
+#: src/virt-viewer.c:295
+msgid "Waiting for guest domain to re-start"
+msgstr ""
+
+#: src/virt-viewer.c:924
+msgid "Waiting for guest domain to start"
+msgstr ""
+
+#: src/virt-viewer.c:875
+msgid "Waiting for libvirt to start"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-menus.ui:16
+msgid "Zoom _In"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-menus.ui:20
+msgid "Zoom _Out"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-shortcuts.ui:17
+msgctxt "shortcut window"
+msgid "Zoom in"
+msgstr ""
+
+#: src/virt-viewer-app.c:2526
+#, c-format
+msgid "Zoom level must be within %d-%d\n"
+msgstr ""
+
+#: src/virt-viewer-app.c:3557
+msgid "Zoom level of window, in percentage"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-shortcuts.ui:24
+msgctxt "shortcut window"
+msgid "Zoom out"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-shortcuts.ui:31
+msgctxt "shortcut window"
+msgid "Zoom reset"
+msgstr ""
+
+#: src/virt-viewer.c:1039
+msgid "[none]"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-menus.ui:34
+msgid "_About"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-menus.ui:28
+msgid "_Auto resize"
+msgstr ""
+
+#: src/resources/ui/remote-viewer-connect.ui:121
+#: src/resources/ui/virt-viewer-auth.ui:28
+#: src/resources/ui/virt-viewer-file-transfer-dialog.ui:26
+#: src/resources/ui/virt-viewer-vm-connection.ui:25
+#: src/virt-viewer-window.c:1092
+msgid "_Cancel"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-guest-details.ui:22
+#: src/virt-viewer-session-spice.c:841
+msgid "_Close"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-menus.ui:42
+msgid "_Guest details"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-menus.ui:38
+msgid "_Keyboard shortcuts"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-menus.ui:24
+msgid "_Normal Size"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-auth.ui:43
+msgid "_OK"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-menus.ui:53
+msgid "_Pause"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-menus.ui:10
+msgid "_Preferences…"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-menus.ui:59
+msgid "_Reset"
+msgstr ""
+
+#: src/virt-viewer-window.c:1093
+msgid "_Save"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-menus.ui:6
+msgid "_Screenshot"
+msgstr ""
+
+#: src/remote-viewer.c:437
+msgid "failed to parse oVirt URI"
+msgstr ""
+
+#: src/resources/ui/virt-viewer-auth.ui:70
+#: src/resources/ui/virt-viewer-file-transfer-dialog.ui:55
+#: src/resources/ui/virt-viewer-guest-details.ui:80
+#: src/resources/ui/virt-viewer-guest-details.ui:94
+msgid "label"
+msgstr ""
+
+#: src/remote-viewer.c:494
+#, c-format
+msgid "oVirt VM %s has no display"
+msgstr ""
+
+#: src/remote-viewer.c:520
+#, c-format
+msgid "oVirt VM %s has no host information"
+msgstr ""
+
+#: src/remote-viewer.c:531
+#, c-format
+msgid "oVirt VM %s has unknown display type: %u"
+msgstr ""
+
+#: src/remote-viewer.c:480
+#, c-format
+msgid "oVirt VM %s is not running"
+msgstr ""
+
+#: src/virt-viewer-app.c:1509
+msgid "only SSH or UNIX socket connection supported."
+msgstr ""
