@@ -1,0 +1,653 @@
+# Virt Viewer package strings.
+# Copyright (C) 2019 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Kjartan Maraas <kmaraas@gnome.org>, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: virt-viewer 9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-18 18:29+0000\n"
+"PO-Revision-Date: 2015-02-20 08:10+0000\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: Norwegian Bokmål (http://www.transifex.com/projects/p/virt-"
+"viewer/language/nb/)\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Zanata 4.6.2\n"
+
+#, c-format
+msgid ""
+"\n"
+"Error: can't handle multiple URIs\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"No ID|UUID|DOMAIN-NAME was specified for '%s'\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Usage: %s [OPTIONS] [ID|UUID|DOMAIN-NAME]\n"
+"\n"
+msgstr ""
+
+#. translators:
+#. * This is "<ungrab accelerator> <subtitle> - <appname>"
+#. * Such as: "(Press Ctrl+Alt to release pointer) BigCorpTycoon MOTD - Virt Viewer"
+#.
+#, c-format
+msgid "%s %s - %s"
+msgstr ""
+
+#. translators:
+#. * This is "<ungrab accelerator> - <appname>"
+#. * Such as: "(Press Ctrl+Alt to release pointer) - Virt Viewer"
+#.
+#. translators:
+#. * This is "<subtitle> - <appname>"
+#. * Such as: "BigCorpTycoon MOTD - Virt Viewer"
+#.
+#, c-format
+msgid "%s - %s"
+msgstr ""
+
+#, c-format
+msgid "%s version %s"
+msgstr ""
+
+#, c-format
+msgid "(Press %s to release pointer)"
+msgstr ""
+
+msgid "<b>Loading...</b>"
+msgstr ""
+
+msgid "<never|always>"
+msgstr ""
+
+msgid "<never|on-disconnect>"
+msgstr ""
+
+msgid "A remote desktop client built with GTK-VNC, SPICE-GTK and libvirt"
+msgstr ""
+
+msgid "About Virt-Viewer"
+msgstr ""
+
+msgid "Access remote desktops"
+msgstr ""
+
+#, c-format
+msgid "Address is too long for UNIX socket_path: %s"
+msgstr ""
+
+#, c-format
+msgid "At least %s version %s is required to setup this connection"
+msgstr ""
+
+#, c-format
+msgid ""
+"At least %s version %s is required to setup this connection, see %s for "
+"details"
+msgstr ""
+
+msgid "Attach to the local display using libvirt"
+msgstr ""
+
+msgid "Authentication failed."
+msgstr ""
+
+#, c-format
+msgid ""
+"Authentication is required for the %s connection to:\n"
+"\n"
+"<b>%s</b>\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "Authentication is required for the %s connection:\n"
+msgstr ""
+
+msgid "Authentication required"
+msgstr ""
+
+msgid "Authentication was cancelled"
+msgstr ""
+
+msgid "Automatically resize remote framebuffer"
+msgstr ""
+
+msgid "Available virtual machines"
+msgstr ""
+
+msgid "C_onnect"
+msgstr ""
+
+#, c-format
+msgid "Can't connect to channel: %s"
+msgstr ""
+
+msgid "Cannot determine the connection type from URI"
+msgstr "Kan ikke bestemme tilkoblingstype fra URI"
+
+#, c-format
+msgid "Cannot determine the graphic type for the guest %s"
+msgstr "Kan ikke bestemme grafikktype for gjest %s"
+
+#, c-format
+msgid "Cannot determine the host for the guest %s"
+msgstr "Kan ikke bestemme vert for gjest %s"
+
+msgid "Cannot get guest state"
+msgstr ""
+
+msgid "Change CD"
+msgstr ""
+
+msgid "Checking guest domain status"
+msgstr ""
+
+msgid "Choose a virtual machine"
+msgstr ""
+
+msgid "Connect to SSH failed."
+msgstr ""
+
+msgid "Connect to channel unsupported."
+msgstr ""
+
+msgid "Connect to hypervisor"
+msgstr ""
+
+msgid "Connected to graphic server"
+msgstr ""
+
+#, c-format
+msgid "Connecting to UNIX socket failed: %s"
+msgstr ""
+
+msgid "Connecting to graphic server"
+msgstr ""
+
+msgid "Connection _Address"
+msgstr ""
+
+msgid "Connection details"
+msgstr ""
+
+msgid "Console support is compiled out!"
+msgstr ""
+
+msgid ""
+"Copyright (C) 2007-2012 Daniel P. Berrange\n"
+"Copyright (C) 2007-2020 Red Hat, Inc."
+msgstr ""
+
+msgid "Couldn't open oVirt session: "
+msgstr ""
+
+#, c-format
+msgid "Creating UNIX socket failed: %s"
+msgstr ""
+
+#, c-format
+msgid "Current: %s"
+msgstr ""
+
+msgid "Cursor display mode: 'local' or 'auto'"
+msgstr ""
+
+msgid "Customise hotkeys"
+msgstr ""
+
+msgctxt "shortcut window"
+msgid "Devices"
+msgstr ""
+
+msgid "Direct connection with no automatic tunnels"
+msgstr "Direkte kobling uten automatiske tuneller"
+
+#, c-format
+msgid "Display _%d"
+msgstr ""
+
+msgid "Display can only be attached through libvirt with --attach"
+msgstr ""
+
+msgid "Display debugging information"
+msgstr "Vis feilsøkingsinformasjon"
+
+msgid "Display verbose information"
+msgstr "Vis mer informasjon"
+
+msgid "Display version information"
+msgstr "Vis versjonsinformasjon"
+
+msgid "Do not ask me again"
+msgstr ""
+
+msgid "Do you want to close the session?"
+msgstr ""
+
+msgid "Enable kiosk mode"
+msgstr ""
+
+msgid "Failed to change CD"
+msgstr ""
+
+msgid "Failed to connect: "
+msgstr ""
+
+msgid "Failed to initiate connection"
+msgstr "Klarte ikke å sette opp tilkobling"
+
+msgid "Failed to read stdin: "
+msgstr ""
+
+msgid "File Transfers"
+msgstr ""
+
+msgid "Finding guest domain"
+msgstr "Finner domene for gjest"
+
+msgid "Folder sharing"
+msgstr ""
+
+msgid "For example, spice://foo.example.org:5900"
+msgstr ""
+
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr ""
+
+msgid "GUID:"
+msgstr ""
+
+#, c-format
+msgid "Guest '%s' is not reachable"
+msgstr ""
+
+msgid "Guest Details"
+msgstr ""
+
+msgid "Guest domain has shutdown"
+msgstr ""
+
+msgctxt "shortcut window"
+msgid "Guest input devices"
+msgstr ""
+
+#, c-format
+msgid "Invalid file %s: "
+msgstr ""
+
+#, c-format
+msgid "Invalid kiosk-quit argument: %s"
+msgstr ""
+
+msgid "Invalid password"
+msgstr ""
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Name:"
+msgstr ""
+
+msgid "No ISO files in domain"
+msgstr ""
+
+msgid "No connection was chosen"
+msgstr ""
+
+msgid "No running virtual machine found"
+msgstr ""
+
+msgid "No virtual machine was chosen"
+msgstr ""
+
+msgid "Open in full screen mode (adjusts guest resolution to fit the client)"
+msgstr ""
+
+msgid "Password:"
+msgstr ""
+
+msgid "Please add an extension to the file name"
+msgstr ""
+
+msgid "Power _down"
+msgstr ""
+
+msgid "Preferences"
+msgstr ""
+
+msgid "QEMU debug console"
+msgstr ""
+
+msgid "QEMU human monitor"
+msgstr ""
+
+msgid "Quit on given condition in kiosk mode"
+msgstr ""
+
+msgid "Read-only"
+msgstr ""
+
+msgid "Recent connections"
+msgstr ""
+
+msgid "Reconnect to domain upon restart"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgctxt "shortcut window"
+msgid "Release cursor"
+msgstr ""
+
+msgid ""
+"Remap keys format key=keymod+key e.g. F1=SHIFT+CTRL+F1,1=SHIFT+F1,ALT_L=Void"
+msgstr ""
+
+msgid "Remote Viewer"
+msgstr ""
+
+msgid ""
+"Remote Viewer provides a graphical viewer for the guest OS display. At this "
+"time it supports guest OS using the VNC or SPICE protocols. Further "
+"protocols may be supported in the future as user demand dictates. The viewer "
+"can connect directly to both local and remotely hosted guest OS, optionally "
+"using SSL/TLS encryption."
+msgstr ""
+
+msgid "Remote viewer client"
+msgstr ""
+
+msgid "Remotely access virtual machines"
+msgstr ""
+
+#, c-format
+msgid "Run '%s --help' to see a full list of available command line options\n"
+msgstr ""
+
+msgid "Save screenshot"
+msgstr ""
+
+msgid "Screenshot.png"
+msgstr ""
+
+#. Create the widgets
+msgid "Select USB devices for redirection"
+msgstr "Velg USB-enheter for omdirigering"
+
+msgid "Select the virtual machine only by its ID"
+msgstr ""
+
+msgid "Select the virtual machine only by its UUID"
+msgstr ""
+
+msgid "Select the virtual machine only by its name"
+msgstr ""
+
+msgid "Selected"
+msgstr ""
+
+msgctxt "shortcut window"
+msgid "Send secure attention (Ctrl-Alt-Del)"
+msgstr ""
+
+msgid "Serial"
+msgstr ""
+
+msgid "Set window title"
+msgstr ""
+
+msgid "Share client session"
+msgstr ""
+
+msgid "Share clipboard"
+msgstr ""
+
+msgid "Share folder"
+msgstr ""
+
+msgid "Show / hide password text"
+msgstr ""
+
+msgctxt "shortcut window"
+msgid "Smartcard insert"
+msgstr ""
+
+msgctxt "shortcut window"
+msgid "Smartcard remove"
+msgstr ""
+
+msgid "Spice"
+msgstr ""
+
+msgid "The Fedora Translation Team"
+msgstr ""
+
+#, c-format
+msgid "Transferring %u file of %u..."
+msgid_plural "Transferring %u files of %u..."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Transferring 1 file..."
+msgstr ""
+
+msgctxt "shortcut window"
+msgid "USB device reset"
+msgstr ""
+
+#, c-format
+msgid "USB redirection error: %s"
+msgstr ""
+
+#, c-format
+msgid "Unable to authenticate with remote desktop server at %s: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Unable to authenticate with remote desktop server: %s"
+msgstr ""
+
+#, c-format
+msgid "Unable to connect to libvirt with URI: %s."
+msgstr ""
+
+#, c-format
+msgid "Unable to connect to the graphic server %s"
+msgstr ""
+
+#, c-format
+msgid "Unable to connect: %s"
+msgstr ""
+
+msgid "Unable to connnect to oVirt"
+msgstr ""
+
+#, c-format
+msgid "Unable to determine image format for file '%s'"
+msgstr ""
+
+msgctxt "Unknown UUID"
+msgid "Unknown"
+msgstr ""
+
+msgctxt "Unknown name"
+msgid "Unknown"
+msgstr ""
+
+msgid "Unspecified error"
+msgstr ""
+
+#, c-format
+msgid "Unsupported authentication type %u"
+msgstr ""
+
+#, c-format
+msgid "Unsupported graphic type '%s'"
+msgstr ""
+
+msgid "Username:"
+msgstr ""
+
+msgid "VNC does not provide GUID"
+msgstr ""
+
+msgctxt "shortcut window"
+msgid "Viewer"
+msgstr ""
+
+msgid "Virt Viewer"
+msgstr ""
+
+msgid "Virt-Viewer connection file"
+msgstr ""
+
+#, c-format
+msgid "Virtual machine %s is not running"
+msgstr ""
+
+msgid "Virtual machine graphical console"
+msgstr ""
+
+msgid "Wait for domain to start"
+msgstr ""
+
+#, c-format
+msgid "Waiting for display %d..."
+msgstr "Venter på skjerm %d…"
+
+msgid "Waiting for guest domain to be created"
+msgstr ""
+
+msgid "Waiting for guest domain to re-start"
+msgstr "Venter på at domene for gjest skal starte på nytt"
+
+msgid "Waiting for guest domain to start"
+msgstr ""
+
+msgid "Waiting for libvirt to start"
+msgstr ""
+
+msgid "Zoom _In"
+msgstr ""
+
+msgid "Zoom _Out"
+msgstr ""
+
+msgctxt "shortcut window"
+msgid "Zoom in"
+msgstr ""
+
+#, c-format
+msgid "Zoom level must be within %d-%d\n"
+msgstr ""
+
+msgid "Zoom level of window, in percentage"
+msgstr "Zoom-nivå i vinduer i prosent"
+
+msgctxt "shortcut window"
+msgid "Zoom out"
+msgstr ""
+
+msgctxt "shortcut window"
+msgid "Zoom reset"
+msgstr ""
+
+msgid "[none]"
+msgstr ""
+
+msgid "_About"
+msgstr ""
+
+msgid "_Auto resize"
+msgstr ""
+
+msgid "_Cancel"
+msgstr ""
+
+msgid "_Close"
+msgstr ""
+
+msgid "_Guest details"
+msgstr ""
+
+msgid "_Keyboard shortcuts"
+msgstr ""
+
+msgid "_Normal Size"
+msgstr ""
+
+msgid "_OK"
+msgstr ""
+
+msgid "_Pause"
+msgstr ""
+
+msgid "_Preferences…"
+msgstr ""
+
+msgid "_Reset"
+msgstr ""
+
+msgid "_Save"
+msgstr ""
+
+msgid "_Screenshot"
+msgstr ""
+
+msgid "failed to parse oVirt URI"
+msgstr ""
+
+msgid "label"
+msgstr ""
+
+#, c-format
+msgid "oVirt VM %s has no display"
+msgstr ""
+
+#, c-format
+msgid "oVirt VM %s has no host information"
+msgstr ""
+
+#, c-format
+msgid "oVirt VM %s has unknown display type: %u"
+msgstr ""
+
+#, c-format
+msgid "oVirt VM %s is not running"
+msgstr ""
+
+msgid "only SSH or UNIX socket connection supported."
+msgstr ""
+
+#~ msgid "Disconnect"
+#~ msgstr "Koble fra"
+
+#~ msgid "Leave fullscreen"
+#~ msgstr "Forlat fullskjerm"
+
+#~ msgid "%s%s%s - %s"
+#~ msgstr "%s%s%s - %s"
+
+#~ msgid "Connect to ssh failed."
+#~ msgstr "Tilkobling til SSH feilet."

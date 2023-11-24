@@ -1,0 +1,889 @@
+# Virt Viewer package strings.
+# Copyright (C) 2019 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Geert Warrink <geert.warrink@onsnet.nu>, 2010, 2011, 2012, 2013, 2014, 2020, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: virt-viewer 9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-18 18:29+0000\n"
+"PO-Revision-Date: 2021-02-28 12:40+0000\n"
+"Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
+"Language-Team: Dutch <https://translate.fedoraproject.org/projects/virt-"
+"viewer/virt-viewer/nl/>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+
+#, c-format
+msgid ""
+"\n"
+"Error: can't handle multiple URIs\n"
+"\n"
+msgstr ""
+"\n"
+"Fout: kan niet omgaan met meerdere URI's\n"
+"\n"
+
+#, c-format
+msgid ""
+"\n"
+"No ID|UUID|DOMAIN-NAME was specified for '%s'\n"
+"\n"
+msgstr ""
+"\n"
+"Er is geen ID|UUID|DOMEIN-NAAM gespecificeerd voor '%s'\n"
+"\n"
+
+#, c-format
+msgid ""
+"\n"
+"Usage: %s [OPTIONS] [ID|UUID|DOMAIN-NAME]\n"
+"\n"
+msgstr ""
+"\n"
+"Gebruik: %s [OPTIES] [ID|UUID|DOMEIN-NAAM]\n"
+"\n"
+
+#. translators:
+#. * This is "<ungrab accelerator> <subtitle> - <appname>"
+#. * Such as: "(Press Ctrl+Alt to release pointer) BigCorpTycoon MOTD - Virt Viewer"
+#.
+#, c-format
+msgid "%s %s - %s"
+msgstr ""
+
+#. translators:
+#. * This is "<ungrab accelerator> - <appname>"
+#. * Such as: "(Press Ctrl+Alt to release pointer) - Virt Viewer"
+#.
+#. translators:
+#. * This is "<subtitle> - <appname>"
+#. * Such as: "BigCorpTycoon MOTD - Virt Viewer"
+#.
+#, c-format
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#, c-format
+msgid "%s version %s"
+msgstr "%s versie %s"
+
+#, c-format
+msgid "(Press %s to release pointer)"
+msgstr "(Druk op %s om wijzer vrij te geven)"
+
+msgid "<b>Loading...</b>"
+msgstr "<b>Bezig met laden...</b>"
+
+msgid "<never|always>"
+msgstr ""
+
+msgid "<never|on-disconnect>"
+msgstr "<never|on-disconnect>"
+
+msgid "A remote desktop client built with GTK-VNC, SPICE-GTK and libvirt"
+msgstr ""
+"Een desktop op afstand cliënt gebouwd met GTK-VNC, SPICE-GTK en libvirt"
+
+msgid "About Virt-Viewer"
+msgstr "Over Virt-Viewer"
+
+msgid "Access remote desktops"
+msgstr "Toegang tot bureaubladen op afstand"
+
+#, c-format
+msgid "Address is too long for UNIX socket_path: %s"
+msgstr "Adres is te lang voor UNIX socket_path: %s"
+
+#, c-format
+msgid "At least %s version %s is required to setup this connection"
+msgstr "%s versie %s is tenminste vereist om deze verbinding in te stellen"
+
+#, c-format
+msgid ""
+"At least %s version %s is required to setup this connection, see %s for "
+"details"
+msgstr ""
+"Tenminste %s versie %s is vereist om deze verbinding in te stellen, zie %s "
+"voor details"
+
+msgid "Attach to the local display using libvirt"
+msgstr "Verbindt met het lokale display met libvirt"
+
+msgid "Authentication failed."
+msgstr "Verificatie mislukt."
+
+#, c-format
+msgid ""
+"Authentication is required for the %s connection to:\n"
+"\n"
+"<b>%s</b>\n"
+"\n"
+msgstr ""
+"Verificatie is vereist voor de %s verbinding naar:\n"
+"\n"
+"<b>%s</b>\n"
+"\n"
+
+#, c-format
+msgid "Authentication is required for the %s connection:\n"
+msgstr "Verificatie is vereist voor de %s verbinding:\n"
+
+msgid "Authentication required"
+msgstr "Authenticatie is vereist"
+
+msgid "Authentication was cancelled"
+msgstr "Verificatie is geannuleerd"
+
+msgid "Automatically resize remote framebuffer"
+msgstr ""
+
+msgid "Available virtual machines"
+msgstr "Beschikbare virtuele machines"
+
+msgid "C_onnect"
+msgstr "_Aansluiten"
+
+#, c-format
+msgid "Can't connect to channel: %s"
+msgstr "Kan geen verbinding maken met kanaal: %s"
+
+msgid "Cannot determine the connection type from URI"
+msgstr "Kan het connectie type niet van URI bepalen"
+
+#, c-format
+msgid "Cannot determine the graphic type for the guest %s"
+msgstr "Kan het grafische type voor de gast %s niet bepalen"
+
+#, c-format
+msgid "Cannot determine the host for the guest %s"
+msgstr "Kan de host voor de gast %s niet bepalen"
+
+msgid "Cannot get guest state"
+msgstr "Kan gasttoestand niet ophalen"
+
+msgid "Change CD"
+msgstr "Verander CD"
+
+msgid "Checking guest domain status"
+msgstr "Controleer gast domein status"
+
+msgid "Choose a virtual machine"
+msgstr "Kies een virtuele machine"
+
+msgid "Connect to SSH failed."
+msgstr "Verbinding met SSH mislukte."
+
+msgid "Connect to channel unsupported."
+msgstr "Verbinding maken met kanaal wordt niet ondersteund."
+
+msgid "Connect to hypervisor"
+msgstr "Verbindt met hypervisor"
+
+msgid "Connected to graphic server"
+msgstr "Verbonden met grafische server"
+
+#, c-format
+msgid "Connecting to UNIX socket failed: %s"
+msgstr "Verbinding met UNIX-socket mislukte: %s"
+
+msgid "Connecting to graphic server"
+msgstr "Verbinding maken met grafische server"
+
+msgid "Connection _Address"
+msgstr "Verbindings_adres"
+
+msgid "Connection details"
+msgstr "Verbindingsdetails"
+
+msgid "Console support is compiled out!"
+msgstr "Consoleondersteuning is niet ingebouwd!"
+
+msgid ""
+"Copyright (C) 2007-2012 Daniel P. Berrange\n"
+"Copyright (C) 2007-2020 Red Hat, Inc."
+msgstr ""
+"Copyright (C) 2007-2012 Daniel P. Berrange\n"
+"Copyright (C) 2007-2020 Red Hat, Inc."
+
+msgid "Couldn't open oVirt session: "
+msgstr "Kan oVirt-sessie niet openen: "
+
+#, c-format
+msgid "Creating UNIX socket failed: %s"
+msgstr "Aanmaken van UNIX-socket mislukte: %s"
+
+#, c-format
+msgid "Current: %s"
+msgstr ""
+
+msgid "Cursor display mode: 'local' or 'auto'"
+msgstr ""
+
+msgid "Customise hotkeys"
+msgstr "Pas sneltoetsen aan"
+
+msgctxt "shortcut window"
+msgid "Devices"
+msgstr ""
+
+msgid "Direct connection with no automatic tunnels"
+msgstr "Directe verbinding zonder automatische tunnels"
+
+#, c-format
+msgid "Display _%d"
+msgstr "Display _%d"
+
+msgid "Display can only be attached through libvirt with --attach"
+msgstr "Display kan alleen worden aangesloten via libvirt met --attach"
+
+msgid "Display debugging information"
+msgstr "Toon debug informatie"
+
+msgid "Display verbose information"
+msgstr "Toon uitgebreide informatie"
+
+msgid "Display version information"
+msgstr "Toon versie informatie"
+
+msgid "Do not ask me again"
+msgstr "Vraag me dit niet weer"
+
+msgid "Do you want to close the session?"
+msgstr "Wil je de sessie afsluiten?"
+
+msgid "Enable kiosk mode"
+msgstr "Zet kiosk modus aan"
+
+msgid "Failed to change CD"
+msgstr "CD veranderen mislukt"
+
+msgid "Failed to connect: "
+msgstr "Kon niet verbinden: "
+
+msgid "Failed to initiate connection"
+msgstr "Verbinding initiëren mislukte"
+
+msgid "Failed to read stdin: "
+msgstr "Kan stdin niet lezen: "
+
+msgid "File Transfers"
+msgstr "Bestandsoverdrachten"
+
+msgid "Finding guest domain"
+msgstr "Zoek naar gast domein"
+
+msgid "Folder sharing"
+msgstr "Mappen delen"
+
+msgid "For example, spice://foo.example.org:5900"
+msgstr "Bijvoorbeeld, spice://foo.example.org:5900"
+
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr ""
+
+msgid "GUID:"
+msgstr "GUID:"
+
+#, c-format
+msgid "Guest '%s' is not reachable"
+msgstr "Gast '%s' is niet bereikbaar"
+
+msgid "Guest Details"
+msgstr "Gastdetails"
+
+msgid "Guest domain has shutdown"
+msgstr "Gast domein werd afgesloten"
+
+msgctxt "shortcut window"
+msgid "Guest input devices"
+msgstr ""
+
+#, c-format
+msgid "Invalid file %s: "
+msgstr "Ongeldig bestand %s: "
+
+#, c-format
+msgid "Invalid kiosk-quit argument: %s"
+msgstr "Ongeldig kiosk-quit argument: %s"
+
+msgid "Invalid password"
+msgstr "Ongeldig wachtwoord"
+
+msgid "Loading..."
+msgstr "Bezig met laden..."
+
+msgid "Name"
+msgstr "Naam"
+
+msgid "Name:"
+msgstr "Naam:"
+
+msgid "No ISO files in domain"
+msgstr "Geen ISO-bestanden in domein"
+
+msgid "No connection was chosen"
+msgstr "Er is geen verbinding gekozen"
+
+msgid "No running virtual machine found"
+msgstr "Geen actieve virtuele machine gevonden"
+
+msgid "No virtual machine was chosen"
+msgstr "Er is geen virtuele machine gekozen"
+
+msgid "Open in full screen mode (adjusts guest resolution to fit the client)"
+msgstr ""
+"Open in volledig-scherm modus (past gastresolutie aan om te passen bij die "
+"van de cliënt)"
+
+msgid "Password:"
+msgstr "Wachtwoord:"
+
+msgid "Please add an extension to the file name"
+msgstr "Voeg een extensie toe aan de bestandsnaam"
+
+msgid "Power _down"
+msgstr ""
+
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+msgid "QEMU debug console"
+msgstr "QEMU-console voor foutopsporing"
+
+msgid "QEMU human monitor"
+msgstr "QEMU menselijke monitor"
+
+msgid "Quit on given condition in kiosk mode"
+msgstr "Sluit af bij gegeven conditie in kiosk modus"
+
+msgid "Read-only"
+msgstr "Alleen-lezen"
+
+msgid "Recent connections"
+msgstr "Recente verbindingen"
+
+msgid "Reconnect to domain upon restart"
+msgstr "Verbindt opnieuw met domein nadat het opgestart is"
+
+msgid "Refresh"
+msgstr "Vernieuwen"
+
+msgctxt "shortcut window"
+msgid "Release cursor"
+msgstr ""
+
+msgid ""
+"Remap keys format key=keymod+key e.g. F1=SHIFT+CTRL+F1,1=SHIFT+F1,ALT_L=Void"
+msgstr ""
+"Herindeling toetsenformat key = keymod + key bijv. F1=SHIFT+CTRL+F1,1=SHIFT"
+"+F1,ALT_L=Void"
+
+msgid "Remote Viewer"
+msgstr "Viewer op afstand"
+
+msgid ""
+"Remote Viewer provides a graphical viewer for the guest OS display. At this "
+"time it supports guest OS using the VNC or SPICE protocols. Further "
+"protocols may be supported in the future as user demand dictates. The viewer "
+"can connect directly to both local and remotely hosted guest OS, optionally "
+"using SSL/TLS encryption."
+msgstr ""
+"Remote Viewer biedt een grafische viewer voor het gastbesturingsscherm. Op "
+"dit moment ondersteunt het gast-besturingssystemen met behulp van de VNC- of "
+"SPICE-protocollen. Mogelijk worden in de toekomst meer protocollen "
+"ondersteund, afhankelijk van de vraag van de gebruiker. De viewer kan "
+"rechtstreeks verbinding maken met zowel lokaal als op afstand gehoste "
+"gastbesturingssystemen, optioneel met behulp van SSL/TLS-codering."
+
+msgid "Remote viewer client"
+msgstr "Viewer cliënt op afstand"
+
+msgid "Remotely access virtual machines"
+msgstr "Krijg op afstand toegang tot virtuele machines"
+
+#, c-format
+msgid "Run '%s --help' to see a full list of available command line options\n"
+msgstr ""
+"Voer '% s --help' uit om een volledige lijst met beschikbare "
+"commandoregelopties te zien\n"
+
+msgid "Save screenshot"
+msgstr "Bewaar schermopname"
+
+msgid "Screenshot.png"
+msgstr "Screenshot.png"
+
+#. Create the widgets
+msgid "Select USB devices for redirection"
+msgstr "Selecteer USB apparaten voor omleiding"
+
+msgid "Select the virtual machine only by its ID"
+msgstr "Selecteer de virtuele machine alleen aan de hand van zijn ID"
+
+msgid "Select the virtual machine only by its UUID"
+msgstr "Selecteer de virtuele machine alleen aan de hand van zijn UUID"
+
+msgid "Select the virtual machine only by its name"
+msgstr "Selecteer de virtuele machine alleen op naam"
+
+msgid "Selected"
+msgstr "Geselecteerd"
+
+msgctxt "shortcut window"
+msgid "Send secure attention (Ctrl-Alt-Del)"
+msgstr ""
+
+msgid "Serial"
+msgstr "Serieel"
+
+msgid "Set window title"
+msgstr "Stel venstertitel in"
+
+msgid "Share client session"
+msgstr ""
+
+msgid "Share clipboard"
+msgstr "Klembord delen"
+
+msgid "Share folder"
+msgstr "Deel map"
+
+msgid "Show / hide password text"
+msgstr ""
+
+msgctxt "shortcut window"
+msgid "Smartcard insert"
+msgstr ""
+
+msgctxt "shortcut window"
+msgid "Smartcard remove"
+msgstr ""
+
+msgid "Spice"
+msgstr "Spice"
+
+msgid "The Fedora Translation Team"
+msgstr "Het Fedora vertaal team"
+
+#, c-format
+msgid "Transferring %u file of %u..."
+msgid_plural "Transferring %u files of %u..."
+msgstr[0] "%u bestand van %u overzetten..."
+msgstr[1] "%u bestanden van %u overzetten..."
+
+msgid "Transferring 1 file..."
+msgstr "1 bestand overzetten..."
+
+msgctxt "shortcut window"
+msgid "USB device reset"
+msgstr ""
+
+#, c-format
+msgid "USB redirection error: %s"
+msgstr "USB omleidingsfout: %s"
+
+#, c-format
+msgid "Unable to authenticate with remote desktop server at %s: %s\n"
+msgstr "Kan niet verifiëren met externe desktopserver op %s: %s\n"
+
+#, c-format
+msgid "Unable to authenticate with remote desktop server: %s"
+msgstr "Kon geen authenticatie verkrijgen met desktop server op afstand: %s"
+
+#, c-format
+msgid "Unable to connect to libvirt with URI: %s."
+msgstr "Kan niet met libvirt verbinden met URI: %s."
+
+#, c-format
+msgid "Unable to connect to the graphic server %s"
+msgstr "Ka niet verbinden met de grafische server %s"
+
+#, c-format
+msgid "Unable to connect: %s"
+msgstr "Kan niet verbinden: %s"
+
+msgid "Unable to connnect to oVirt"
+msgstr "Kan niet verbinden met oVirt"
+
+#, c-format
+msgid "Unable to determine image format for file '%s'"
+msgstr "Kan beeldformaat niet bepalen voor bestand '%s'"
+
+msgctxt "Unknown UUID"
+msgid "Unknown"
+msgstr "Onbekend"
+
+msgctxt "Unknown name"
+msgid "Unknown"
+msgstr "Onbekend"
+
+msgid "Unspecified error"
+msgstr "Niet-gespecificeerde fout"
+
+#, c-format
+msgid "Unsupported authentication type %u"
+msgstr "Niet-ondersteund verificatietype %u"
+
+#, c-format
+msgid "Unsupported graphic type '%s'"
+msgstr "Niet-ondersteund grafisch type '%s'"
+
+msgid "Username:"
+msgstr "Gebruikersnaam:"
+
+msgid "VNC does not provide GUID"
+msgstr "VNC biedt geen GUID aan"
+
+msgctxt "shortcut window"
+msgid "Viewer"
+msgstr ""
+
+msgid "Virt Viewer"
+msgstr "Virt viewer"
+
+msgid "Virt-Viewer connection file"
+msgstr "Virt-Viewer verbindingsbestand"
+
+#, c-format
+msgid "Virtual machine %s is not running"
+msgstr "Virtuele machine %s is niet actief"
+
+msgid "Virtual machine graphical console"
+msgstr "Virtuele machine grafische console"
+
+msgid "Wait for domain to start"
+msgstr "Wacht tot het domein opgestart is"
+
+#, c-format
+msgid "Waiting for display %d..."
+msgstr "Wachten op display %d..."
+
+msgid "Waiting for guest domain to be created"
+msgstr "Wacht tot gast domein aangemaakt is"
+
+msgid "Waiting for guest domain to re-start"
+msgstr "Wacht tot gast domein opnieuw opgestart wordt"
+
+msgid "Waiting for guest domain to start"
+msgstr "Wacht tot gast domein gestart wordt"
+
+msgid "Waiting for libvirt to start"
+msgstr "Wacht op het opstarten van libvirt"
+
+msgid "Zoom _In"
+msgstr "_In zoomen"
+
+msgid "Zoom _Out"
+msgstr "_Uitzoomen"
+
+msgctxt "shortcut window"
+msgid "Zoom in"
+msgstr ""
+
+#, c-format
+msgid "Zoom level must be within %d-%d\n"
+msgstr "Zoom niveau moet tussen %d-%d zijn\n"
+
+msgid "Zoom level of window, in percentage"
+msgstr "Zoom niveau in percentage van het venster"
+
+msgctxt "shortcut window"
+msgid "Zoom out"
+msgstr ""
+
+msgctxt "shortcut window"
+msgid "Zoom reset"
+msgstr ""
+
+msgid "[none]"
+msgstr "[geen]"
+
+msgid "_About"
+msgstr "_Over"
+
+msgid "_Auto resize"
+msgstr ""
+
+msgid "_Cancel"
+msgstr "_Annuleren"
+
+msgid "_Close"
+msgstr "_Sluiten"
+
+msgid "_Guest details"
+msgstr ""
+
+msgid "_Keyboard shortcuts"
+msgstr ""
+
+msgid "_Normal Size"
+msgstr "_Normale grootte"
+
+msgid "_OK"
+msgstr "_OK"
+
+msgid "_Pause"
+msgstr "_Pauzeren"
+
+msgid "_Preferences…"
+msgstr ""
+
+msgid "_Reset"
+msgstr "_Resetten"
+
+msgid "_Save"
+msgstr "_Opslaan"
+
+msgid "_Screenshot"
+msgstr "_Schermafdruk"
+
+msgid "failed to parse oVirt URI"
+msgstr "ontleden van oVirt URI mislukte"
+
+msgid "label"
+msgstr "label"
+
+#, c-format
+msgid "oVirt VM %s has no display"
+msgstr "oVirt VM %s heeft geen display"
+
+#, c-format
+msgid "oVirt VM %s has no host information"
+msgstr "oVirt VM %s heeft geen hostinformatie"
+
+#, c-format
+msgid "oVirt VM %s has unknown display type: %u"
+msgstr "oVirt VM %s heeft onbekend display type: %u"
+
+#, c-format
+msgid "oVirt VM %s is not running"
+msgstr "oVirt VM %s is niet actief"
+
+msgid "only SSH or UNIX socket connection supported."
+msgstr "alleen SSH of UNIX socket verbinding ondersteund."
+
+#~ msgid "Close"
+#~ msgstr "Afsluiten"
+
+#~ msgid "Ctrl_L+Alt_L"
+#~ msgstr "Ctrl_L+Alt_L"
+
+#~ msgid "Select ISO"
+#~ msgstr "Selecteer ISO"
+
+#~ msgid "(Press %s to release pointer) %s - %s"
+#~ msgstr "(Druk op %s om de aanwijzer los te laten) %s - %s"
+
+#~ msgid "(Press %s to release pointer) - %s"
+#~ msgstr "(Druk op %s om de aanwijzer los te laten) - %s"
+
+#~ msgid "Disconnect"
+#~ msgstr "Verbinding verbreken"
+
+#~ msgid "Leave fullscreen"
+#~ msgstr "Verlaat volledig scherm"
+
+#~ msgid "Minimize"
+#~ msgstr "Minimaliseren"
+
+#~ msgid "Release cursor"
+#~ msgstr "Geef cursor vrij"
+
+#~ msgid "Send key combination"
+#~ msgstr "Stuur sleutel combinatie"
+
+#~ msgid "Show password"
+#~ msgstr "Toon wachtwoord"
+
+#~ msgid "Smartcard insertion"
+#~ msgstr "Breng smartcard in"
+
+#~ msgid "Smartcard removal"
+#~ msgstr "Verwijder Smartcard"
+
+#~ msgid "USB device selection"
+#~ msgstr "USB apparaat selectie"
+
+#~ msgid "_Change CD"
+#~ msgstr "_Verander CG"
+
+#~ msgid "_Displays"
+#~ msgstr "_Displays"
+
+#~ msgid "_File"
+#~ msgstr "_Bestand"
+
+#~ msgid "_Full screen"
+#~ msgstr "_Volledig scherm"
+
+#~ msgid "_Guest Details"
+#~ msgstr "_Gastdetails"
+
+#~ msgid "_Help"
+#~ msgstr "_Hulp"
+
+#~ msgid "_Machine"
+#~ msgstr "_Machine"
+
+#~ msgid "_Power down"
+#~ msgstr "_Uitschakelen"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Voorkeuren"
+
+#~ msgid "_Quit"
+#~ msgstr "_Stoppen"
+
+#~ msgid "_Send key"
+#~ msgstr "_Stuur sleutel"
+
+#~ msgid "_USB device selection"
+#~ msgstr "_USB-apparaatselectie"
+
+#~ msgid "_View"
+#~ msgstr "_View"
+
+#~ msgid "_Zoom"
+#~ msgstr "_Zoom"
+
+#~ msgid ""
+#~ "Copyright (C) 2007-2012 Daniel P. Berrange\n"
+#~ "Copyright (C) 2007-2014 Red Hat, Inc."
+#~ msgstr ""
+#~ "Copyright (C) 2007-2012 Daniel P. Berrange\n"
+#~ "Copyright (C) 2007-2014 Red Hat, Inc."
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "%s\n"
+#~ msgstr "%s\n"
+
+#~ msgid "%s%s%s - %s"
+#~ msgstr "%s%s%s - %s"
+
+#~ msgid "Address is too long for unix socket_path: %s"
+#~ msgstr "Adres is te lang voor unix socket_path: %s"
+
+#~ msgid "An error caused the following file transfers to fail:"
+#~ msgstr "Door een fout zijn de volgende bestandsoverdrachten mislukt:"
+
+#~ msgid "Connect to ssh failed."
+#~ msgstr "Verbinden met ssh mislukte."
+
+#~ msgid "Connecting to unix socket failed: %s"
+#~ msgstr "Verbinden met unix socket mislukt: %s"
+
+#~ msgid "Creating unix socket failed: %s"
+#~ msgstr "Aanmaken van unix socket mislukt: %s"
+
+#~ msgid "Ctrl+Alt"
+#~ msgstr "Ctrl+Alt"
+
+#~ msgid "Ctrl+Alt+F11"
+#~ msgstr "Ctrl+Alt+F11"
+
+#~ msgid "Ctrl+Alt+F12"
+#~ msgstr "Ctrl+Alt+F12"
+
+#~ msgid "Ctrl+Alt+F1_0"
+#~ msgstr "Ctrl+Alt+F1_0"
+
+#~ msgid "Ctrl+Alt+F_1"
+#~ msgstr "Ctrl+Alt+F_1"
+
+#~ msgid "Ctrl+Alt+F_2"
+#~ msgstr "Ctrl+Alt+F_2"
+
+#~ msgid "Ctrl+Alt+F_3"
+#~ msgstr "Ctrl+Alt+F_3"
+
+#~ msgid "Ctrl+Alt+F_4"
+#~ msgstr "Ctrl+Alt+F_4"
+
+#~ msgid "Ctrl+Alt+F_5"
+#~ msgstr "Ctrl+Alt+F_5"
+
+#~ msgid "Ctrl+Alt+F_6"
+#~ msgstr "Ctrl+Alt+F_6"
+
+#~ msgid "Ctrl+Alt+F_7"
+#~ msgstr "Ctrl+Alt+F_7"
+
+#~ msgid "Ctrl+Alt+F_8"
+#~ msgstr "Ctrl+Alt+F_8"
+
+#~ msgid "Ctrl+Alt+F_9"
+#~ msgstr "Ctrl+Alt+F_9"
+
+#~ msgid "Ctrl+Alt+_Backspace"
+#~ msgstr "Ctrl+Alt+_Backspace"
+
+#~ msgid "Ctrl+Alt+_Del"
+#~ msgstr "Ctrl+Alt+_Del"
+
+#~ msgid "Failed to fetch CD names"
+#~ msgstr "Kan CD-namen niet ophalen"
+
+#~ msgid "Select the virtual machine only by its id"
+#~ msgstr "Selecteer de virtuele machine alleen op ID"
+
+#~ msgid "Select the virtual machine only by its uuid"
+#~ msgstr "Selecteer de virtuele machine alleen op uuid"
+
+#~ msgid ""
+#~ "This program is free software; you can redistribute it and/or modify\n"
+#~ "it under the terms of the GNU General Public License as published by\n"
+#~ "the Free Software Foundation; either version 2 of the License, or\n"
+#~ "(at your option) any later version.\n"
+#~ "\n"
+#~ "This program is distributed in the hope that it will be useful,\n"
+#~ "but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+#~ "GNU General Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License\n"
+#~ "along with this program; if not, write to the Free Software\n"
+#~ "Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  "
+#~ "USA\n"
+#~ msgstr ""
+#~ "This program is free software; you can redistribute it and/or modify\n"
+#~ "it under the terms of the GNU General Public License as published by\n"
+#~ "the Free Software Foundation; either version 2 of the License, or\n"
+#~ "(at your option) any later version.\n"
+#~ "\n"
+#~ "This program is distributed in the hope that it will be useful,\n"
+#~ "but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+#~ "GNU General Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License\n"
+#~ "along with this program; if not, write to the Free Software\n"
+#~ "Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  "
+#~ "USA\n"
+
+#~ msgid "Unknown"
+#~ msgstr "Onbekend"
+
+#~ msgid "_PrintScreen"
+#~ msgstr "_Schermafdruk"
+
+#~ msgid "failed to parse ovirt uri"
+#~ msgstr "kon ovirt uri niet ontleden"
+
+#~ msgid "gitlab.com/virt-viewer/virt-viewer"
+#~ msgstr "gitlab.com/virt-viewer/virt-viewer"
+
+#~ msgid "only SSH or unix socket connection supported."
+#~ msgstr "alleen SSH of unix socket verbindingen worden ondersteund."
+
+#~ msgid "virt-manager.org"
+#~ msgstr "virt-manager.org"
